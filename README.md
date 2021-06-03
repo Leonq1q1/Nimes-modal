@@ -1,1 +1,2 @@
 # Nimes-modal
+Author - Valentin
