@@ -1,0 +1,48 @@
+.modal
+  background-color: #adb3b8
+  opacity: 0.9
+  width: 500px
+  min-height: 200px
+  position: fixed
+  top: 50px
+  left: 50%
+  transform: translateX(-50%)
+  z-index: 20
+  padding: 20px
+  border-radius: 15px
+  text-align: center
+  box-shadow: 0 0 10px 0 black
+
+  &_fon
+    width: 100%
+    height: 100%
+    background-color: #4b4b4b
+    opacity: 0.5
+    top: 0
+    left: 0
+    position: fixed
+    z-index: 19
+  &_ecs
+    padding-top: 5px
+    background-color: inherit
+    display: block
+    border: none
+    border-radius: 20px
+    &:hover
+      background-color: white
+      cursor: pointer
+  &_auth
+    margin: 0 auto
+    align-self: center
+
+.hidden
+  visibility: hidden
+.invalid
+  border: 2px solid red
+.error
+  &_pas,
+  &_log
+    color: red
+    border-radius: 5px
+    padding: 20px 0
+    text-align: center
